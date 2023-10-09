@@ -36,14 +36,12 @@ nav a:hover{
  color:blue;
  text-decoration:underline;
 }
-
 nav a{
-  text-transform:uppercase;
-  color:black;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-}
+    text-transform:uppercase;
+    color:black;
+    font-size: 30px;
+  }
+
 /*fim do header*/
 
  nav a{
@@ -84,7 +82,27 @@ li{
 font-size: 25px;
 }
 
+/*footer*/
 
+footer{
+  text-align: center;
+  background-image: url(bg.jpg);
+  padding:15px 0px;
+}
 
+.redes  a{
+   margin: 0 10px;
+   text-decoration: none;
+}
 
+.redes img:hover{
+ transition: 0.5s;
+ transform: scale(1.1);
+ opacity: 60%;
+}
 
+.copyright{
+   font-size: 13px;
+   color: white;
+   margin-top: 15px;
+}
