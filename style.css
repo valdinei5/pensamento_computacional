@@ -31,6 +31,21 @@ right: 0;
     margin-left: 15px;
  }
 
+nav a:hover{
+ transition: 0.2;
+ color:blue;
+ text-decoration:underline;
+}
+
+nav a{
+  text-transform:uppercase;
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*fim do header*/
+
  nav a{
  text-transform: uppercase;
  color: black;
