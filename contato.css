@@ -22,20 +22,25 @@ form p {
     width: 50%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 text area{
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 legend{
     padding: 15px 0 5px;
 }
+
 select{
     width: 10%;
     text-align: center;
 }
+
 .checkbox{
     margin: 20px 0;
 }
+
 .enviar{
     width: 40%;
     padding: 15px 0;
@@ -47,5 +52,11 @@ select{
     border-radius: 10px;
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.enviar:hover{
+    transition: 0.5s;
+    background-color: brown;
+    transform: scale(1.1);
 }
 
